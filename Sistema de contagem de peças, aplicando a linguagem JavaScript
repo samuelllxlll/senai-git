@@ -1,11 +1,14 @@
 console.log("sistema de cadastro de peças")
+
    var listadepeca = [" Cilindro de roda traseira,  "Sensor de temperatura", "Termo Interruptor do radiador", "Servofreio", " Interruptor de pressão do óleo", " Cilindro mestre de freio",
    "Pinça de freio", "Tubo distribuidor do sistema de injeção", "Pistão", "Tubo de sucção do motor" ];
+   
 if(listadepeca => 10){
  console.log ("não mais espaço para cadastro")
 }else{
  console.log("ainda a espaço para o cadastro de mais peças")
  }
+ 
 let peso = 100
   console.log("Lista de Peças")
  if(pesopeca > 100){
@@ -13,6 +16,7 @@ let peso = 100
  }else{
   console.log("Peso insuficiente, não é possível cadastrar")
  }
+ 
 let nomepeca = "Cilindro de roda traseira"
 if (nomepeca.length < 3) {
     console.log("Nome menor do que o permitido!")
