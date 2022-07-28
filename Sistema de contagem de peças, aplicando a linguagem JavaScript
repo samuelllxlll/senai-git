@@ -1,6 +1,6 @@
-console.log("sistema de cadastro de peças")
+console.log("sistema de cadastro de peças");
 
-   var listadepeca = [" Cilindro de roda traseira,  "Sensor de temperatura", "Termo Interruptor do radiador", "Servofreio", " Interruptor de pressão do óleo", " Cilindro mestre de freio",
+   var listadepeca = [" Cilindro de roda traseira",  "Sensor de temperatura", "Termo Interruptor do radiador", "Servofreio", " Interruptor de pressão do óleo", " Cilindro mestre de freio",
    "Pinça de freio", "Tubo distribuidor do sistema de injeção", "Pistão", "Tubo de sucção do motor" ];
    
 if(listadepeca => 10){
