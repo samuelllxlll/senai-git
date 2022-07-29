@@ -1,19 +1,18 @@
-
-console.log("sistema de cadastro de eventos");
-
-listadepart = ["lucas", "samuel", "pedro", "herique"];
+       listadepart = ["lucas", "samuel", "pedro", "herique"];
 
 console.log(listadepart)
 
  let idade = prompt ("qual a sua idade?")
   if(idade<18){
     console.log("sua incriçõ não e permitida pela sua idade") 
-  }else(idade=>18){
+  }else{
     console.log("idade valida") 
   }
   
-  if (listadepart=>100){
+  if (listadepart<=100){
    console.log("sua incriçõ não e permitida")
   }else{
-  let prompt=("Qual o seu nome?")
+   let nome=prompt("Qual o seu nome?")
+      listadepart.push (nome)
   }
+    console.log(listadepart)
