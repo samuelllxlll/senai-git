@@ -8,10 +8,12 @@ console.log(listadepart)
  let idade = prompt ("qual a sua idade?")
   if(idade<18){
     console.log("sua incriçõ não e permitida pela sua idade") 
-  }if else(idade=>18){
+  }else(idade=>18){
     console.log("idade valida") 
   }
   
-  if (vaga <100){
-   console.log("sua incriçõ não e permitida pela sua idade")
+  if (listadepart=>100){
+   console.log("sua incriçõ não e permitida")
+  }else{
+  let prompt=("Qual o seu nome?")
   }
