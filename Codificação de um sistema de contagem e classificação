@@ -1,0 +1,15 @@
+console.log("sistema de contagem e classificação");
+
+const listaAlunos = [{ nome: "luiz", notaProva1: 6, notaProva2: 8 },{nome: "lucas", notaProva1: 2, notaProva2: 5},
+{nome: "samuel", notaProva1: 8, notaProva2: 9},{ nome: "mateus", notaProva1:8,  notaProva2:8 }]
+
+for (let index = 0; index < listaAlunos.length; index++) { let status = ""; const media = (listaAlunos[index].notaProva1 + listaAlunos[index].notaProva2) / 2;
+
+    if (media < 4) {
+        status = "Reprovado"
+    } else if (media>=5 ) {
+        status = "Aprovado"
+    }
+
+    console.log(`O aluno ${listaAlunos[index].nome} teve media igual a ${media} e foi ${status}`)
+}
